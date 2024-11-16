@@ -26,7 +26,7 @@ This project combines computer vision and AI to create a unique hand gesture-bas
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/AI-powered-Math-Solver-with-Gesture-Recognition.git
+   git clone https://github.com/sreejasun/AI-powered-Math-Solver-with-Gesture-Recognition.git
    cd AI-powered-Math-Solver-with-Gesture-Recognition
 2. Install the required dependencies:
    ```bash
