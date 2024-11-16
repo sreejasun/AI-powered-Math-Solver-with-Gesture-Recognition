@@ -1,0 +1,1 @@
+# AI-powered-Math-Solver-with-Gesture-Recognition
