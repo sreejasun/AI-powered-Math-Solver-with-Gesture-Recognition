@@ -42,7 +42,7 @@ hands = mpHands.Hands(max_num_hands=1, min_detection_confidence=0.7)
 mpDraw = mp.solutions.drawing_utils
 
 # Streamlit setup
-st.title("Hand Gesture Paint App")
+st.title("AI Powered Math Solver with GEsture Recognition")
 stframe1 = st.empty()
 stframe2 = st.empty()
 
@@ -120,7 +120,7 @@ while ret:
                 green_index = 0
                 red_index = 0
                 paintWindow[67:, :, :] = 255
-                api_key = "OPENAI_APIKEY"
+                api_key = "YOUR_OPENAI_APIKEY"
                 model = "gpt-4o"
                 with open("drawing.png", "rb") as image_file:
                     base64_image = base64.b64encode(image_file.read()).decode("utf-8")
